@@ -1,0 +1,281 @@
+# =========================================================
+# Universal i2v Enhanced Prompt Generator - Safe .gitignore
+# Windows + Python + Gradio + Optional PHP/Node compatibility
+# =========================================================
+
+
+# ---------------------------------------------------------
+# Python cache / compiled files
+# ---------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+
+# ---------------------------------------------------------
+# Python virtual environments
+# ---------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+
+
+# ---------------------------------------------------------
+# Python build / packaging
+# ---------------------------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+
+# ---------------------------------------------------------
+# Local environment / secrets
+# ---------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets/
+secret/
+credentials/
+credential/
+config.local.*
+local_config.*
+private_config.*
+api_keys.*
+tokens.*
+passwords.*
+
+
+# ---------------------------------------------------------
+# Hugging Face / AI model cache
+# Important: do NOT upload local models to GitHub
+# ---------------------------------------------------------
+hf_models/
+models/
+model_cache/
+.cache/
+cache/
+huggingface/
+.huggingface/
+transformers_cache/
+
+
+# ---------------------------------------------------------
+# Gradio / temporary web files
+# ---------------------------------------------------------
+gradio_cached_examples/
+.flagged/
+flagged/
+tmp/
+temp/
+temporary/
+uploads/
+upload/
+outputs/
+output/
+generated/
+generated_outputs/
+
+
+# ---------------------------------------------------------
+# Logs
+# ---------------------------------------------------------
+logs/
+log/
+*.log
+*.out
+*.err
+debug.log
+error.log
+
+
+# ---------------------------------------------------------
+# Databases / real data
+# Do not upload real database files
+# ---------------------------------------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.mdb
+*.accdb
+app.sqlite
+database.sqlite
+database.db
+
+
+# Keep database schema files
+!database/
+!database/schema.sql
+!database/*.sql
+
+
+# ---------------------------------------------------------
+# Database backup / export files
+# ---------------------------------------------------------
+backup/
+backups/
+db_backup/
+db_backups/
+database_backup/
+database_backups/
+*.bak
+*.backup
+*.dump
+*.sql.gz
+*.sql.zip
+*.7z
+*.rar
+
+
+# ---------------------------------------------------------
+# Customer / finance / private data
+# ---------------------------------------------------------
+customer_data/
+customers/
+client_data/
+clients/
+financial_data/
+finance_data/
+real_data/
+private_data/
+confidential/
+资料/
+客户资料/
+真实客户资料/
+真实财务资料/
+
+
+# ---------------------------------------------------------
+# Media files that may be private or too large
+# Upload only selected sample files manually if safe
+# ---------------------------------------------------------
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.gif
+*.psd
+*.ai
+*.blend
+
+# Optional: ignore uploaded user images by default
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+*.tiff
+
+# Allow README screenshots if you create a safe screenshots folder
+!screenshots/
+!screenshots/*.jpg
+!screenshots/*.jpeg
+!screenshots/*.png
+!screenshots/*.webp
+
+
+# ---------------------------------------------------------
+# Node.js dependencies, if added later
+# ---------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# Do not keep package-lock unless you decide to lock versions
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+# Keep package definition files
+!package.json
+
+
+# ---------------------------------------------------------
+# PHP Composer dependencies, if added later
+# ---------------------------------------------------------
+vendor/
+
+# Do not keep composer.lock unless this becomes a deployed PHP app
+composer.lock
+
+# Keep composer definition file
+!composer.json
+
+
+# ---------------------------------------------------------
+# VS Code / IDE
+# ---------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+
+# Optional: allow recommended VS Code settings if you want
+# !.vscode/settings.json
+# !.vscode/extensions.json
+
+
+# ---------------------------------------------------------
+# Windows / macOS system files
+# ---------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ---------------------------------------------------------
+# Jupyter / notebook checkpoints
+# ---------------------------------------------------------
+.ipynb_checkpoints/
+
+
+# ---------------------------------------------------------
+# Test / coverage
+# ---------------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+nosetests.xml
+coverage.xml
+
+
+# ---------------------------------------------------------
+# Local generated config
+# ---------------------------------------------------------
+env_config.local.json
+user_config.json
+settings.local.json
+
+
+# If env_config.json contains only safe custom environment tags,
+# you may remove the next line and upload it.
+# If it contains private prompts or client data, keep it ignored.
+env_config.json
+
+
+# ---------------------------------------------------------
+# Keep important public project files
+# ---------------------------------------------------------
+!README.md
+!requirements.txt
+!.gitignore
