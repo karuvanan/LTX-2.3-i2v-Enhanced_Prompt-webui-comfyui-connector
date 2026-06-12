@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/e40d1275-0063-431f-9efd-4a0fd8b0e480
+
 # Universal i2v ComfyUI Prompt Connector
 
 Universal i2v ComfyUI Prompt Connector is a Python-based image-to-video prompt automation tool that combines a Tkinter desktop GUI, Gradio WebUI, and ComfyUI API integration.
@@ -56,6 +60,7 @@ Universal i2v ComfyUI Prompt Connector 是一个基于 Python 的图生视频 Pr
 ---
 
 
+https://github.com/user-attachments/assets/537f24be-7867-4151-a46c-d340ed8c0d3d
 
 
 
