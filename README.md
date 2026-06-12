@@ -243,7 +243,7 @@ pip install gradio Pillow transformers torch huggingface_hub opencv-python numpy
 Start ComfyUI from Stability Matrix with recommended arguments:
 
 ```cmd
---user-directory "c:\comfyui\user" --disable-dynamic-vram --listen 0.0.0.0
+--user-directory "c:\comfyui\user"  --disable-dynamic-vram --cache-none --listen 0.0.0.0
 ```
 
 ### 6. Run the application
